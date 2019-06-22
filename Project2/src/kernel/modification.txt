@@ -1,0 +1,18 @@
+Operating System Project 2: Android Memory Management
+Zihan Wang	517021911179
+
+All the modifications are marked in the code.
+Codes surrounded by // ORIGINAL BEGIN ... // END are the ones in the original Linux source.
+Codes surrounded by // MODIFIED BEGIN ... // END are the ones added by myself.
+
+# Modification:
+include/linux/mm_types.h: 
+	struct page						Line 41-43
+mm/internal.h: 
+	#define and inline functions	Line 16-30
+mm/swap.c
+	mark_page_accessed				Line 364-379
+	lru_deactivate_fn				Line 479-484
+mm/vmscan.c: 
+	page_check_references			Line 755-761, Line 791-799
+	shrink_active_list				Line 1812-1817, Line 1820-1822
