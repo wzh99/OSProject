@@ -1,8 +1,8 @@
 # Operating System Project
 
-This is the repository for SJTU CS356 Operating System Project. All the work is done in Android Emulator running on a 64-bit Linux. 
+This is the repository for SJTU CS356 Operating System Project. All the work is done in Android Emulator running on 64-bit Linux OS. 
 
-
+I got 100 points in this course, with bonus for presentation. 
 
 ## Contents
 
@@ -14,4 +14,4 @@ This is the repository for SJTU CS356 Operating System Project. All the work is 
   - Two system calls: one explores page table layout, the other remaps page tables to user space.
   - `VATranslate`: a program that translates a given virtual address of a target process to physical one.
   - `vm_inspector`: a program that dumps page tables of a target process.
-  - Change Linux page replacement algorithm to a LFU-based one.
+  - Change Linux page replacement algorithm to LRU and LFU ones. (The slides of presentation are also included)
